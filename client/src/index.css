@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.main_title {
+  padding: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+.book_container {
+  width: 60%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.book_container ul {
+  list-style-type: none;
+}
+
+.book_item {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid rgb(202, 84, 48);
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.book_item:hover {
+  background: rgb(248, 248, 248);
+}
+
+.form_control {
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+}
+
+form {
+  width: 400px;
+  padding: 1rem;
+}
+
+.form_contain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 0.2rem;
+}
+
+.form_contain label {
+  text-align: right;
+}
+
+.form_contain select {
+  width: 100%;
+}
+
+.form_control button {
+  border-radius: 50%;
+  padding: 1rem;
+  color: white;
+  border: none;
+  background: rgb(246, 173, 54);
+  cursor: pointer;
+}
+
+.form_control button:hover {
+  background: rgb(246, 204, 136);
+}
+
+.book_details {
+  width: 40%;
+  height: 100%;
+  padding: 3rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-left: 1rem;
+  background: lightcoral;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.book_details h3 {
+  margin-bottom: 1rem;
+}
+.book_details p {
+  margin-bottom: 1rem;
+}
+
+.book_details ul {
+  margin-top: 1.2rem;
+  list-style: disc;
+}
